@@ -1,0 +1,35 @@
+/*********** Global ***********/
+
+h1, h2, h3 {
+	font-family: "Merriweather", serif;
+}
+
+p {
+	padding-bottom: 10px;
+}
+
+/*********** end Global ***********/
+
+
+body {
+	font-weight: 100px;
+}
+
+main, footer {
+	margin: 20px;
+}
+
+input {
+
+}
+
+button {
+	display: block;
+	margin-top: 10px;
+}
+
+#uuid {
+	font-weight: 600;
+}
+
+

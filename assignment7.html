@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>L. Zanotti - Assignment 7 - Local Storage</title>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+      <meta inputName="description" content="Loriana Zanotti Local Storage"/>
+ 
+      <link href="reset.css" type="text/css" rel="stylesheet"/>
+      <link rel="stylesheet" href="assignment7.css"/>
+  </head>
+
+
+ <body id = "colorPicker">
+    <main>
+
+      <div class="inputName">
+      <label>Name: <input id="inputName" type="text"></label>
+      <label>Color: <input id="inputColor" type="color"></label>
+      <button>Save</button>
+        <!-- <div>
+            <label>inputName<input id="inputName" type="text"></label>
+            <label>Background Color<input id="color" type="color"></label>
+            <button>Save</button>
+        </div> -->
+        </div> <!-- end inputName div -->
+    </main>
+
+    <footer>
+        <div class = "inputName">Hi <span id="display"></span>, your session GUID is: </div><span id="uuid"></span><input id="generateUUID" type="hidden" value="getUUID" />
+        </div> <!-- end inputName div -->
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="assignment7.js"></script>
+
+  </body>
+
+</html>
+
